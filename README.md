@@ -33,7 +33,7 @@ Galaxy provides a platform for hundreds of cutting-edge tools that can be used t
     Variant analysis: SnpEff, SnpSift, VCFtools
     NGS utility tools: BAMtools, BEDtools, Picard, SAMtools
     QA/QC and visualization: FASTQC, deepTools, ngs.plot
-## Getting data into Galaxy¶
+## Getting data into Galaxy
 There are 2 main ways to get your data into Galaxy. We will use each of these methods for 3 files and then use those 3 files for the rest of the workshop.
 Start a new history for this workshop. To do this:
 Click on the history menu button (the icon) at the top of the Histories panel.
@@ -41,7 +41,7 @@ Select Create New.
 It is important to note that Galaxy has the concept of “File Type” built in. This means that each file stored needs to have its type described to Galaxy as it is being made available. Examples of file types are: text, fasta, fastq, vcf, GFF, Genbank, tabular etc.
 We will tell Galaxy what type of file each one is as we upload it.
 
-## Method 1: Upload a file from your own computer¶
+## Method 1: Upload a file from your own computer
 With this method you can get most of the files on your own computer into Galaxy. Example;
 Download the following file to your computer: https://swift.rc.nectar.org.au:8888/v1/AUTH_377/public/galaxy101/Contig_stats.txt.gz
         From the Galaxy tool panel, click on Get Data -> Upload File
@@ -52,7 +52,7 @@ Download the following file to your computer: https://swift.rc.nectar.org.au:888
         Once the progress bar reaches 100%, click the Close button
 The file will now upload to your current history.
 
-## Method 2: Upload a file from a URL¶
+## Method 2: Upload a file from a URL
 If a file exists on a web resource somewhere and you know its URL (Unique resource location - a web address) you can directly load it into Galaxy.
 From the tool panel, click on Get Data -> Upload File
         Click on the Paste/Fetch Data button
